@@ -1,0 +1,46 @@
+/* Desktop View */
+
+@media screen and (min-width: 992px) {
+    .contentContainer{
+        padding: 5%;
+        height: 1286px;
+    }
+
+    .tajCard{
+        margin-top: 4.5em;
+        border: 4px solid #d87c13;
+    }
+
+    .parisCard{
+        margin-top: 4.5em;
+        border: 4px solid #d87c13;
+    }
+
+    .cardLabel{
+        font-family: 'Monsterract', sans-serif;
+        font-size: 25px;
+        font-weight: 150;
+        line-height: 21px;
+        color: #d87c13;
+        text-decoration: underline;
+    }
+
+    .cardBodyDescription{
+        margin-top: 15em;
+    }
+
+    .contentDescription{
+        font-family: 'Monsterract', sans-serif;
+        font-size: 21px;
+        color: #d87c13;
+    }
+
+    .exploreTitle{
+        color: #fafafa;
+        margin-top: 1.8em;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 850;
+        line-height: 35px;
+    }
+}
