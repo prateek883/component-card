@@ -8,12 +8,12 @@
 
     .tajCard{
         margin-top: 4.5em;
-        border: 4px solid #d87c13;
+        border: 4px solid #d87c13 !important;
     }
 
     .parisCard{
         margin-top: 4.5em;
-        border: 4px solid #d87c13;
+        border: 4px solid #d87c13 !important;
     }
 
     .cardLabel{
@@ -21,7 +21,7 @@
         font-size: 25px;
         font-weight: 150;
         line-height: 21px;
-        color: #d87c13;
+        color: #d87c13 !important;
         text-decoration: underline;
     }
 
@@ -32,11 +32,11 @@
     .contentDescription{
         font-family: 'Monsterract', sans-serif;
         font-size: 21px;
-        color: #d87c13;
+        color: #d87c13 !important;
     }
 
     .exploreTitle{
-        color: #fafafa;
+        color: #fafafa !important;
         margin-top: 1.8em;
         text-align: center;
         font-family: 'Open Sans', sans-serif;

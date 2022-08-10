@@ -8,19 +8,19 @@
 
     .aboutSection{
         height: 40vh;
-        background-color: #fafafa;
+        background-color: #fafafa !important;
         border: 5px solid #d87c13 !important;
         
     }
 
     .aboutTitle{
-        color: #d87c13;
+        color: #d87c13 !important;
         font-family: 'Monsterract', sans-serif;
         font-size: 45px;
     }
 
     .aboutDescription{
-        color: #d87c13;
+        color: #d87c13 !important;
         font-family: 'Poppins', sans-serif;
         font-size: 21px;
         margin-top: 1.5em;
