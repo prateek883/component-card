@@ -1,0 +1,63 @@
+
+/* Desktop View */
+@media screen and (min-width: 992px) {
+    .ContentContainer{
+        height: 66px;
+    }
+.Logo{
+    font-size: 41px !important;
+    font-family: "Open Sans";
+    line-height: 11px;
+    font-weight: 500 !important;
+}
+
+
+.loginText{
+    background-color: rgb(228, 162, 20) !important;
+    width: 10em;
+    border: 2px solid #ffff !important;
+    font-family: 'Poppins' sans-serif;
+    font-weight: 650 !important;
+    line-height: 22px;
+    justify-content: flex-end;
+}
+
+.meAuto{
+     margin-left: 25em !important;
+}
+
+.dotcolor{
+    color: rgb(228, 162, 20) !important;
+}
+
+.videoLabel{
+    font-size: 18px !important;
+    font-family:'Monsterract', sans-serif;
+}
+
+.aboutLabel{
+    font-size: 18px !important;
+    font-family:'Monsterract', sans-serif;
+}
+
+.contactLabel{
+    font-size: 18px !important;
+    font-family:'Monsterract', sans-serif;
+}
+
+.adventureLabel{
+    color: rgb(228, 162, 20) !important;
+}
+
+.musuemsLabel{
+    color: rgb(228, 162, 20) !important;
+}
+
+.nationalparkLabel{
+    color: rgb(228, 162, 20) !important;
+}
+
+.citiesLabel{
+    color: rgb(228, 162, 20) !important;
+}
+}

@@ -1,0 +1,35 @@
+/* Desktop View */
+
+@media screen and (min-width: 992px) {
+    .ContentContainer{
+        height: 596px;
+    }
+
+    .firstTitle{
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        margin-top: 6em;
+        text-align: start;
+        font-weight: 450;
+    }
+
+    .secondTitle{
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        text-align: start;
+        margin-top: 1.2em;
+        font-weight: 250;
+    }
+
+    .imageSlider{
+        height: 689px;
+        width: 100%;
+    }
+
+    .slideLabel{
+        font-size: 32px;
+        font-weight: 450;
+        color: rgb(235, 167, 22);
+        line-height: 11px;
+    }
+}

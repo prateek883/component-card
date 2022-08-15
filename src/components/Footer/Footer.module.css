@@ -1,0 +1,27 @@
+/* Desktop View */
+
+@media screen and (min-width: 992px) {
+    .contentContainer{
+        height: 226px;
+    }
+
+    .heading{
+        font-family: 'Poppins', sans-serif;
+        margin-top:1.8em;
+        text-align: left;
+        font-size: 31px;
+        font-weight: 350;
+        line-height: 21px;
+    }
+
+    .description{
+        text-align: left;
+        font-family: 'Monsterract', sans-serif;
+        font-size: 21px;
+        font-weight: 250;
+    }
+
+    .dot{
+        color: rgb(228, 162, 20);
+    }
+}
