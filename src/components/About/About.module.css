@@ -17,8 +17,11 @@
 
     .aboutTitle {
         color: #d87c13 !important;
-        font-family: 'Monsterract', sans-serif;
-        font-size: 45px;
+        font-family: 'Helvetica',sans-serif;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 34px;
+        letter-spacing: -.015em;
     }
 
     .aboutDescription {

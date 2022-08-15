@@ -24,10 +24,10 @@ function home() {
             <div style={{ maxWidth: "100%" }}>
                 <AboutSection />
             </div>
-            <div style={{ maxWidth: "100%", backgroundImage: 'linear-gradient(to right, #000000, #434343)' }}>
+            <div style={{ maxWidth: "100%" }}>
                 <Subscribe />
             </div>
-            <div style={{ maxWidth: "100%" }}>
+            <div style={{ maxWidth: "100%", backgroundImage: 'linear-gradient(to right, #000000, #434343)'  }}>
                 <Footer />
             </div>
         </div>

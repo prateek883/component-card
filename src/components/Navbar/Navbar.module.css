@@ -13,13 +13,14 @@
 
 
 .loginText{
-    background-color: rgb(228, 162, 20) !important;
+    background-color: rgb(225, 156, 7) !important;
     width: 10em;
     border: 2px solid #ffff !important;
-    font-family: 'Poppins' sans-serif;
-    font-weight: 650 !important;
+    font-weight: 450 !important;
     line-height: 22px;
     justify-content: flex-end;
+    border-radius: 5px;
+    font-size: 20px;
 }
 
 .meAuto{
@@ -33,6 +34,7 @@
 .videoLabel{
     font-size: 18px !important;
     font-family:'Monsterract', sans-serif;
+    color: #ffff !important;
 }
 
 .aboutLabel{
@@ -46,7 +48,7 @@
 }
 
 .adventureLabel{
-    color: rgb(228, 162, 20) !important;
+    color: rgb(243, 171, 15) !important;
 }
 
 .musuemsLabel{

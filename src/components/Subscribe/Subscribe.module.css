@@ -63,10 +63,10 @@
 
     .newsletterTitle{
         font-size: 32px;
-        color: #e4a51c;
+        color: #fafafa;
         margin-top: 2em;
-        font-family: "Monsterract", sans-serif;
-        line-height: 23px;
+        font-family: "Poppins", sans-serif;
+        line-height: 25px;
         font-weight: 560;
         text-align: center;
     }
@@ -130,7 +130,7 @@
     .subscribeCardBody{
         width: 90%;
         margin-top: 5em;
-        border-radius: 15px ;
-        background-image: linear-gradient(to right, #000000, #434343);
+        border-radius: 50% ;
+        background-image: linear-gradient(to right, #eec210, #926a0c);
     }
 }

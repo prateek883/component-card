@@ -20,8 +20,8 @@ function Footer() {
                        <div className={styles.socialIcons}>
                        </div>
                     </Col>
-                    <hr/>
-                    <span>Metatrott@2022 Copyright</span>
+                    <hr className={styles.horizontalLine} />
+                    <span className={styles.copyrightTitle}>Metatrott@2022 Copyright</span>
                 </Row>
                 </Container>
         </div>
