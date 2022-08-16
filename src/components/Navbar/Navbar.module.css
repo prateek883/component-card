@@ -1,65 +1,83 @@
-
 /* Desktop View */
 @media screen and (min-width: 992px) {
-    .ContentContainer{
+    .ContentContainer {
         height: 66px;
     }
-.Logo{
-    font-size: 41px !important;
-    font-family: "Open Sans";
-    line-height: 11px;
-    font-weight: 500 !important;
-}
+
+    .Logo {
+        font-size: 31px !important;
+        font-family: "Open Sans";
+        line-height: 18px;
+        font-weight: 500 !important;
+    }
 
 
-.loginText{
-    background-color: rgb(225, 156, 7) !important;
-    width: 10em;
-    border: 2px solid #ffff !important;
-    font-weight: 450 !important;
-    line-height: 22px;
-    justify-content: flex-end;
-    border-radius: 5px;
-    font-size: 20px;
-}
+    .loginText {
+        background-color: rgb(225, 156, 7) !important;
+        width: 8em;
+        border: 2px solid #ffff !important;
+        font-weight: 650 !important;
+        line-height: 22px;
+        justify-content: flex-end;
+        border-radius: 10px!important;
+        font-size: 15px !important;
+    }
 
-.meAuto{
-     margin-left: 25em !important;
-}
+    .meAuto {
+        margin-left: 25em !important;
+    }
 
-.dotcolor{
-    color: rgb(228, 162, 20) !important;
-}
+    .dotcolor {
+        color: rgb(226, 158, 11) !important;
+        box-shadow: 0px 0px 0px 0px rgb(226, 158, 11) !important;
+        font-size: 60px;
+        font-weight: bold;
+    }
 
-.videoLabel{
-    font-size: 18px !important;
-    font-family:'Monsterract', sans-serif;
-    color: #ffff !important;
-}
+    .videoLabel {
+        font-size: 18px !important;
+        font-family: 'Monsterract', sans-serif;
+        color: #ffff !important;
+    }
 
-.aboutLabel{
-    font-size: 18px !important;
-    font-family:'Monsterract', sans-serif;
-}
+    .aboutLabel {
+        font-size: 18px !important;
+        font-family: 'Monsterract', sans-serif;
+    }
 
-.contactLabel{
-    font-size: 18px !important;
-    font-family:'Monsterract', sans-serif;
-}
+    .contactLabel {
+        font-size: 18px !important;
+        font-family: 'Monsterract', sans-serif;
+    }
 
-.adventureLabel{
-    color: rgb(243, 171, 15) !important;
-}
+    .adventureLabel {
+        color: #3b557a !important;
+    }
 
-.musuemsLabel{
-    color: rgb(228, 162, 20) !important;
-}
+    .musuemsLabel {
+        color: #3b557a !important;
+    }
 
-.nationalparkLabel{
-    color: rgb(228, 162, 20) !important;
-}
+    .nationalparkLabel {
+        color: #3b557a !important;
+    }
 
-.citiesLabel{
-    color: rgb(228, 162, 20) !important;
-}
+    .citiesLabel {
+        color: #3b557a !important;
+    }
+
+    .topButtons {
+        border: 0 !important;
+        min-width: 125px;
+        min-height: 25px;
+        background: linear-gradient(0.51deg, #dca91a -32.95%, #e6d431 135.45%);
+        border-radius: 25px !important;
+    }
+
+    .topButtonText {
+        font-family: "Open Sans", Helvetica;
+        color: '#ffffff';
+        font-size: 20px;
+        font-weight: 400;
+    }
 }

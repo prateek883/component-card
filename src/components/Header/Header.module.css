@@ -1,11 +1,11 @@
 /* Desktop View */
 
 @media screen and (min-width: 992px) {
-    .ContentContainer{
+    .ContentContainer {
         height: 596px;
     }
 
-    .firstTitle{
+    .firstTitle {
         font-family: 'Poppins', sans-serif;
         color: #fff;
         margin-top: 6em;
@@ -13,7 +13,7 @@
         font-weight: 450;
     }
 
-    .secondTitle{
+    .secondTitle {
         font-family: 'Poppins', sans-serif;
         color: #fff;
         text-align: start;
@@ -21,15 +21,67 @@
         font-weight: 250;
     }
 
-    .imageSlider{
+    .imageSlider {
         height: 689px;
         width: 100%;
     }
 
-    .slideLabel{
+    .slideLabel {
         font-size: 32px;
         font-weight: 450;
         color: rgb(235, 167, 22);
         line-height: 11px;
+    }
+
+    .headerTitle {
+        margin-top: 2.5em;
+        font-size: 69px;
+        font-weight: 850;
+        color: rgb(235, 167, 22);
+        text-align: start;
+        font-family: "Open Sans", Helvetica;
+        line-height: 71px;
+
+    }
+
+    .paragraphDescription {
+        font-size: 25px;
+        font-weight: 450;
+        color: rgb(235, 167, 22);
+        text-align: start;
+        font-family: 'Poppins', sans-serif;
+        color: #0e2749;
+    }
+
+    .cardContainer {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        -webkit-box-shadow: 0px 10px 48px 0px rgb(224, 223, 217);
+        -moz-box-shadow: 0px 10px 48px 0px rgb(149, 147, 141);
+        box-shadow: 0px 10px 48px 0px rgb(126, 125, 123);
+        border-radius: 30px !important;
+    }
+
+    .cardImage {
+        height: 35em !important;
+        border-radius: 30px !important;
+    }
+
+    .topButtons {
+        border: 0 !important;
+        min-width: 125px;
+        min-height: 25px;
+        background: linear-gradient(0.51deg, #0a0c0e -32.95%, #3b557a 135.45%);
+        border-radius: 25px !important;
+        justify-content: left;
+        align-items: left;
+        box-shadow: 0px 10px 48px 0px rgb(126, 125, 123);
+    }
+
+    .topButtonText {
+        font-family: "Open Sans", Helvetica;
+        color: '#ffffff';
+        font-size: 20px;
+        font-weight: 600;
     }
 }

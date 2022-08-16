@@ -15,7 +15,7 @@ function home() {
             <div style={{ maxWidth: "100%" }}>
                 <Navbar />
             </div>
-            <div style={{ maxWidth: "100%", backgroundImage: 'linear-gradient(to right, #000000, #434343)' }}>
+            <div style={{ maxWidth: "100%" }}>
                 <Header />
             </div>
             <div style={{ maxWidth: "100%" }}>
