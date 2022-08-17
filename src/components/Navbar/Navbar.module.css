@@ -28,7 +28,7 @@
     }
 
     .dotcolor {
-        color: rgb(226, 158, 11) !important;
+        color: #fcb900  !important;
         box-shadow: 0px 0px 0px 0px rgb(226, 158, 11) !important;
         font-size: 60px;
         font-weight: bold;
