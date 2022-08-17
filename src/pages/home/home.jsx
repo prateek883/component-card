@@ -18,7 +18,7 @@ function home() {
             <div style={{ maxWidth: "100%" }}>
                 <Header />
             </div>
-            <div style={{ maxWidth: "100%" }}>
+            <div style={{ maxWidth: "100%",background: 'linear-gradient(0.51deg, #fcb900 -32.95%, #fcb900 135.45%)' }}>
                 <MetaContent />
             </div>
             <div style={{ maxWidth: "100%" }}>

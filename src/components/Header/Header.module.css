@@ -2,7 +2,8 @@
 
 @media screen and (min-width: 992px) {
     .ContentContainer {
-        height: 596px;
+        padding: 2%;
+        height: 676px;
     }
 
     .firstTitle {
@@ -35,19 +36,18 @@
 
     .headerTitle {
         margin-top: 2.5em;
-        font-size: 69px;
-        font-weight: 850;
-        color: rgb(235, 167, 22);
+        color: #fcb900;
+        font-size: 57px;
+        font-weight: 600;
+        letter-spacing: -1px;
+        font-family: 'Poppins';
         text-align: start;
-        font-family: "Open Sans", Helvetica;
-        line-height: 71px;
-
+        text-shadow: 0 1px 3px rgb(0 0 0 / 90%);
     }
 
     .paragraphDescription {
         font-size: 25px;
         font-weight: 450;
-        color: rgb(235, 167, 22);
         text-align: start;
         font-family: 'Poppins', sans-serif;
         color: #0e2749;
@@ -60,28 +60,31 @@
         -moz-box-shadow: 0px 10px 48px 0px rgb(149, 147, 141);
         box-shadow: 0px 10px 48px 0px rgb(126, 125, 123);
         border-radius: 30px !important;
+        border-top-right-radius: 100px !important;
+        border-bottom-left-radius: 100px !important;
     }
 
     .cardImage {
         height: 35em !important;
         border-radius: 30px !important;
+        border-top-right-radius: 100px !important;
+        border-bottom-left-radius: 100px !important;
     }
 
     .topButtons {
         border: 0 !important;
         min-width: 125px;
-        min-height: 25px;
-        background: linear-gradient(0.51deg, #0a0c0e -32.95%, #3b557a 135.45%);
-        border-radius: 25px !important;
-        justify-content: left;
-        align-items: left;
-        box-shadow: 0px 10px 48px 0px rgb(126, 125, 123);
+        min-height: 45px;
+        background: linear-gradient(0.51deg, #fcb900 -32.95%, #fcb900 135.45%);
+        border-radius: 35px !important;
+        margin-right: 30em;
+        padding: 2%;
     }
 
     .topButtonText {
         font-family: "Open Sans", Helvetica;
-        color: '#ffffff';
+        color: #0e2749;
         font-size: 20px;
-        font-weight: 600;
+        font-weight: 700;
     }
 }

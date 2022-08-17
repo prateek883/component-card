@@ -14,14 +14,14 @@ function Header() {
         <Row>
           <Col sm={6}>
             <div>
-              <h1 className={styles.headerTitle}>Explore a new world.</h1>
+              <h1 className={styles.headerTitle}>Let's Make your best Trip Ever</h1>
               <p className={styles.paragraphDescription}>
                 No matter where in the world you want to go, we can help get you
                 there.
               </p>
               <Button className={styles.topButtons}>
                 <div className={styles.topButtonText}>Explore Now</div>
-             </Button>
+              </Button>
             </div>
           </Col>
           <Col sm={6}>

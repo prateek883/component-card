@@ -16,7 +16,7 @@ function AboutSection() {
           with the locals of Eygpt, now explore all and more in Metatrott.
         </p>
         <p className={styles.aboutDescription}>
-          So what are you waiting for ? gather the meta device and start your
+          So what are you waiting for ? <br/>gather the meta device and start your
           journey with us across the metaverse!
         </p>
       </Alert>
