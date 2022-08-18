@@ -41,4 +41,23 @@
         color: #0e2749;
         text-align: center;
     }
+
+    .menu {
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        gap: 30px;
+      }
+
+    .socialLogo{
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
 }

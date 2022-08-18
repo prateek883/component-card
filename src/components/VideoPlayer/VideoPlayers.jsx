@@ -8,7 +8,7 @@ function VideoPlayer() {
     <div>
         <div>
         <YoutubePlayer
-                src="https://www.youtube.com/watch?v=lznP52OEpQk"
+                src="https://www.youtube.com/watch?v=fkbm5nx-M9E"
                 allowFullScreen
                 height={500}
                 width={1300}
