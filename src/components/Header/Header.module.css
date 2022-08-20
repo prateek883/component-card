@@ -38,7 +38,7 @@
         margin-top: 2.5em;
         color: #fcb900;
         font-size: 57px;
-        font-weight: 600;
+        font-weight: 800;
         letter-spacing: -1px;
         font-family: 'Poppins';
         text-align: start;
@@ -74,8 +74,8 @@
     .topButtons {
         border: 0 !important;
         min-width: 125px;
-        min-height: 45px;
-        background: linear-gradient(0.51deg, #fcb900 -32.95%, #fcb900 135.45%);
+        min-height: 55px;
+        background: linear-gradient(0.51deg, #fcb900 -32.95%, #f7c94a 135.45%);
         border-radius: 35px !important;
         margin-right: 30em;
         padding: 2%;

@@ -1,0 +1,80 @@
+/* Mobile View */
+@media screen and (max-width: 480px) {
+    .ContentContainer {
+        padding: 3% 0% 3% 0%;
+        margin: 0 !important;
+        background-color: #eadce1;
+        width: 100%;
+    }
+
+}
+
+/* Desktop View */
+@media screen and (min-width: 992px) {
+    .ContentContainer {
+        padding: 5% 5% 0% 5%;
+        margin: 0 !important;
+        height: 618px;
+    }
+
+    .bannerImage{
+        height: 25em;
+        width: 35em;
+    }
+
+    .backtoHome{
+        margin-top: -2em;
+        margin-left: -2em;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+        color: #0e2749;
+        font-size: 1.2em;
+        font-weight:350 !important;
+    }
+
+    .LoginTitle{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.5em;
+        font-weight: 350 !important;
+        margin-top: 2em;
+        color: #0e2749;
+        text-align: center;
+    }
+
+    .MobileLabel{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2em;
+        font-weight: 350 !important;
+        margin-top: 2em;
+        color: #0e2749;
+        text-align: center;
+    }
+
+    .topButtonText {
+        font-family: "Open Sans", Helvetica;
+        color: #0e2749;;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .topButtons {
+        min-width: 147px;
+        min-height: 50px;
+        background-image: linear-gradient(to bottom right, #fcb900, #fcb900);
+        border: 1px solid #fafafa !important;
+        border-radius: 5px !important;
+        margin-top:1rem;
+    }
+
+    .topMenuText:hover {
+        text-shadow: 0 0 3px #fafafa;
+    }
+
+    .topButtons:hover {
+        box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px !important;
+    }
+    .topButtons:focus {
+        outline: none !important;
+        box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px !important;
+    }
+}

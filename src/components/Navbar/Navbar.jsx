@@ -4,13 +4,15 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Button from "react-bootstrap/Button";
 
+import { Link } from 'react-router-dom'
+
 import styles from "./Navbar.module.css";
 
 function CollapsibleExample() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container className={styles.ContentContainer}>
-        <Navbar.Brand href="#home" className={styles.Logo}>
+        <Navbar.Brand href="/" className={styles.Logo}>
           <span className={styles.dotcolor}>M</span>etatrott
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -52,7 +54,7 @@ function CollapsibleExample() {
                 Cities
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#about" className={styles.aboutLabel}>
+            <Nav.Link href="/about" className={styles.aboutLabel}>
               About
             </Nav.Link>
             <Nav.Link href="#contact-us" className={styles.contactLabel}>
@@ -60,11 +62,11 @@ function CollapsibleExample() {
             </Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">
-            <Button className={styles.topButtons}>
+            <Link to="/login">
+               <Button className={styles.topButtons}>
                 <div className={styles.topButtonText}>Log In</div>
-             </Button>
-            </Nav.Link>
+              </Button>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
