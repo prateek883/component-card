@@ -7,6 +7,8 @@ import Button from 'react-bootstrap/Button';
 
 import styles from "./Header.module.css";
 
+import HeaderImage from "../../assets/headerImage.jpg";
+
 function Header() {
   return (
     <div className={styles.ContentContainer}>
@@ -28,7 +30,7 @@ function Header() {
             <Card className={styles.cardContainer}>
                 <img
                   className={styles.cardImage}
-                  src="https://images.pexels.com/photos/925263/pexels-photo-925263.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  src={HeaderImage}
                 />
             </Card>
           </Col>
